@@ -11,10 +11,9 @@ Analyzes your Spotify listening data collected through IFTTTT and stored in Goog
 ## IFTTTT Workflow: Setting It Up
 1. You will need [this IFTTTT applet](https://ifttt.com/applets/nin7BxVm-keep-a-log-of-your-recently-played-tracks) and connect it to an account with Google Sheets
 2. Wait for your data to roll in as you listen to songs!
-3. Make sure the Google Sheet that is created is open for viewing for anyone with a link
-4. Copy the Google Sheet link <b>from the browser</b> (i.e. not the link that Sheets gives you to share, <i>yes they are different!</i>) insert it in <b>line 6</b> of the code
-5. Add a row at the very top with the following headers: "date" "song" "artist" for columns a, b, and c
-6. Run the code! (Feel free to change it accordingly, I usually run this at the end of each month to see my monthly round-up and other cool data facts)
+3. Add a row at the very top with the following headers: "date" "song" "artist" for columns a, b, and c
+4. After IFTTTT automatically makes a new spreadsheet or at the end of the year, download the spreadsheet as a .csv file.
+6. Run the code! Feel free to customize it for yourself, I usually run this at the end of each month to see my monthly round-up and other cool data facts.
 
 ## Credits and Information
 This repository would not be possible without the original code from [Liz Stippell](https://github.com/liz-stippell/spotify_data), IFTTTT, Google Sheets.
